@@ -1,0 +1,78 @@
+ul li {
+	list-style: none;
+}
+
+.bird {
+	width: 32px;
+	height: 32px;
+}
+
+.bird svg {
+    fill: rgb(29, 155, 240);
+}
+
+.logo{
+    margin-left: 40px;
+}
+/* 
+Unidad de medida
+16px ---> 1em
+32px ---> 2em
+8px ---> 0.5em
+
+*/
+.menu li:hover {
+    background-color: red;
+    transition: background 1s;
+    border-radius: 2em ;
+}
+
+.menu li {
+    padding: 1em 2em;
+}
+
+
+a, a:hover{
+    color: #000000;
+    text-decoration: none;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.lupa{
+    width: 1.6em;
+    height: 1.6em;
+}
+
+
+.buscador-container {
+	background-color: #f5f5f5;
+	padding: 0 2em;
+	border-radius: 16px;
+}
+
+.buscador input{
+    background-color: #f5f5f5;
+}
+
+
+.buscador input:focus-visible, .buscador input:focus {
+	border: none !important;
+	outline: none;
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+}
+
+.post-body p{
+    font-size: 14px;
+}
+
+article.post:hover{
+    background-color: aqua;
+    transition: background 0.7s;
+}
